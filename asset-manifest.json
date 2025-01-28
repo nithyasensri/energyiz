@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/energyiz/static/css/main.38373b32.css",
-    "main.js": "/energyiz/static/js/main.d68e51ec.js",
+    "main.js": "/energyiz/static/js/main.32369ce3.js",
     "static/js/488.4cd8d5e4.chunk.js": "/energyiz/static/js/488.4cd8d5e4.chunk.js",
     "static/media/5016826_Windmill_Wind_3840x2160.mp4": "/energyiz/static/media/5016826_Windmill_Wind_3840x2160.3c9670a2e899f42fe84e.mp4",
     "static/media/istock-1307978273-l-ewi.jpg": "/energyiz/static/media/istock-1307978273-l-ewi.51f0467afb0fa5444508.jpg",
@@ -42,11 +42,11 @@
     "static/media/slick.woff": "/energyiz/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/energyiz/index.html",
     "main.38373b32.css.map": "/energyiz/static/css/main.38373b32.css.map",
-    "main.d68e51ec.js.map": "/energyiz/static/js/main.d68e51ec.js.map",
+    "main.32369ce3.js.map": "/energyiz/static/js/main.32369ce3.js.map",
     "488.4cd8d5e4.chunk.js.map": "/energyiz/static/js/488.4cd8d5e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38373b32.css",
-    "static/js/main.d68e51ec.js"
+    "static/js/main.32369ce3.js"
   ]
 }
