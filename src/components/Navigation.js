@@ -84,13 +84,11 @@ const Navigation = () => {
                 <Link to="funding" className='menu-a'>Funding</Link>
                 <Link to="/job" className='menu-a'>Jobs</Link>
                 <Link to="/contact" className='menu-a'>Contactus</Link>
-                <Link to="/ventilation" className='menu-a'>Ventilation</Link>
                 <Link to="tel:+1234567890" className='menu-a'>Click to call:<b>+123 456 7890</b></Link>
               </div>
             </nav>
           </Col>
           <Col md={2} className='small-list1'>
-
             <Button as="a" className="getfundbtn" variant="primary">
               <Link to="/funform" className=''>
                 Get Funding
