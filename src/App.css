@@ -77,6 +77,7 @@
 
 .menu-c {
   display: block;
+  z-index: 1 !important;
 }
 
 .menu-down .menu-b, .submenu, .menu-c {
@@ -151,7 +152,7 @@
 }
 
 .getfundbtn {
-  background-color: rgba(250, 152, 15, 1);
+  background-color: rgb(25, 25, 227);
   color: #fff !important;
   padding: 12px 22px 12px 26px !important;
   font-size: 1rem;
