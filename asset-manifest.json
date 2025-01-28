@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/energyiz/static/css/main.9abf9862.css",
-    "main.js": "/energyiz/static/js/main.284ec04e.js",
+    "main.css": "/energyiz/static/css/main.ae3cb3bf.css",
+    "main.js": "/energyiz/static/js/main.d68e51ec.js",
     "static/js/488.4cd8d5e4.chunk.js": "/energyiz/static/js/488.4cd8d5e4.chunk.js",
     "static/media/5016826_Windmill_Wind_3840x2160.mp4": "/energyiz/static/media/5016826_Windmill_Wind_3840x2160.3c9670a2e899f42fe84e.mp4",
     "static/media/istock-1307978273-l-ewi.jpg": "/energyiz/static/media/istock-1307978273-l-ewi.51f0467afb0fa5444508.jpg",
@@ -28,8 +28,10 @@
     "static/media/home-grey-section.svg": "/energyiz/static/media/home-grey-section.cd68930a5437dcd7f82847a2602cead0.svg",
     "static/media/zcp7yuzh-retrofit.jpg": "/energyiz/static/media/zcp7yuzh-retrofit.82b6ade1b2274a23316c.jpg",
     "static/media/7rpoibg1-trustmark.jpg": "/energyiz/static/media/7rpoibg1-trustmark.b68100af145d8ad44dd5.jpg",
+    "static/media/7498943-512.png": "/energyiz/static/media/7498943-512.7bbd66046568b8e66e9c.png",
     "static/media/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2": "/energyiz/static/media/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.715cc83767e6bd43255c.woff2",
     "static/media/8x4swkmi-scottishpower.jpg": "/energyiz/static/media/8x4swkmi-scottishpower.6f0f22c229c65dfa6485.jpg",
+    "static/media/7503095-512.png": "/energyiz/static/media/7503095-512.f95b1885c00db6ff5d36.png",
     "static/media/bab-logo.png": "/energyiz/static/media/bab-logo.147654916e82a3154f28.png",
     "static/media/IZ-Logo.svg": "/energyiz/static/media/IZ-Logo.99cfa9f05c58959d228a5a06eeb6bd5e.svg",
     "static/media/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2": "/energyiz/static/media/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.9239397907d5197117fb.woff2",
@@ -39,12 +41,12 @@
     "static/media/slick.ttf": "/energyiz/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/energyiz/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/energyiz/index.html",
-    "main.9abf9862.css.map": "/energyiz/static/css/main.9abf9862.css.map",
-    "main.284ec04e.js.map": "/energyiz/static/js/main.284ec04e.js.map",
+    "main.ae3cb3bf.css.map": "/energyiz/static/css/main.ae3cb3bf.css.map",
+    "main.d68e51ec.js.map": "/energyiz/static/js/main.d68e51ec.js.map",
     "488.4cd8d5e4.chunk.js.map": "/energyiz/static/js/488.4cd8d5e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9abf9862.css",
-    "static/js/main.284ec04e.js"
+    "static/css/main.ae3cb3bf.css",
+    "static/js/main.d68e51ec.js"
   ]
 }
