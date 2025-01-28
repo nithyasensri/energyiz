@@ -18,37 +18,36 @@ const Navigation = () => {
                     <Col sm={12} md={7}>
                         <nav className='menu'>
                             <ul className='list-col'>
-                                <li>
-                                    Services
-                                    <ul className="dropdown-menu">
-                                        <Link to="/renewable" className=''>Renewable Energy</Link>
-                                        <ul className='submenu'>
-                                            <Link to="/solarpv" className=''>SolarPv & Solar Batteries</Link>
-                                            <Link to="/airsource" className=''>Air Source Heat Pumps</Link>
-                                        </ul>
-                                        <Link to="/insulation" className=''>Insulation</Link>
-                                        <ul className='submenu'>
-                                            <Link to="/underfloor" className=''>Underfloor Insulation</Link>
-                                            <Link to="/wallinsulation" className=''>Wall Insulation</Link>
-                                            <Link to="/roofinsulation" className=''>Roof Insulation</Link>
-                                        </ul>
-                                        <Link to="/heating" className=''>Heating And Other Energy Solutions</Link>
-                                        <ul className='submenu'>
-                                            <Link to="/boiler" className=''>Boiler & Heater Controls</Link>
-                                            <Link to="/ventilation" className=''>Ventilation</Link>
-                                        </ul>
+                                <Link className=''>Renewable Energy</Link>
+                                <ul className="dropdown-menu">
+                                    <Link to="/renewable" className=''>Renewable Energy</Link>
+                                    <ul className='submenu'>
+                                        <Link to="/solarpv" className=''>SolarPv & Solar Batteries</Link>
+                                        <Link to="/airsource" className=''>Air Source Heat Pumps</Link>
                                     </ul>
-                                    <Link to="/aboutus" className=''>Aboutus</Link>
-                                    <Link to="funding" className=''>Funding</Link>
-                                    <Link to="/job" className=''>Jobs</Link>
-                                    <Link to="/contact" className=''>Contactus</Link>
-                                    <Link to="/ventilation" className=''>Ventilation</Link>
-                                    <Link to="tel:+1234567890" className=''>Click to call:<b>+123 456 7890</b></Link>
+                                    <Link to="/insulation" className=''>Insulation</Link>
+                                    <ul className='submenu'>
+                                        <Link to="/underfloor" className=''>Underfloor Insulation</Link>
+                                        <Link to="/wallinsulation" className=''>Wall Insulation</Link>
+                                        <Link to="/roofinsulation" className=''>Roof Insulation</Link>
+                                    </ul>
+                                    <Link to="/heating" className=''>Heating And Other Energy Solutions</Link>
+                                    <ul className='submenu'>
+                                        <Link to="/boiler" className=''>Boiler & Heater Controls</Link>
+                                        <Link to="/ventilation" className=''>Ventilation</Link>
+                                    </ul>
+                                </ul>
+                                <Link to="/aboutus" className=''>Aboutus</Link>
+                                <Link to="funding" className=''>Funding</Link>
+                                <Link to="/job" className=''>Jobs</Link>
+                                <Link to="/contact" className=''>Contactus</Link>
+                                <Link to="/ventilation" className=''>Ventilation</Link>
+                                <Link to="tel:+1234567890" className=''>Click to call:<b>+123 456 7890</b></Link>
                             </ul>
                         </nav>
                     </Col>
                     <Col md={2} className='small-list'>
-                    <Link to="/funform" className='funding'>Get Funding</Link>
+                        <Link to="/funform" className='funding'>Get Funding</Link>
                     </Col>
                 </Row>
             </Col >
