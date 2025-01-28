@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col,Button } from 'react-bootstrap';
 import '../App.css';
 import logo from '../assets/IZ-Logo.svg'
 import { Link } from 'react-router-dom'
