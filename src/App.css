@@ -169,11 +169,15 @@
 }
 
 .getfundbtn:hover {
- background-color: darkblue!important;
- border:solid 1px  darkblue;
- transition: 0.5s ease-in-out;
+  background-color: darkblue !important;
+  border: solid 1px darkblue;
+  transition: 0.5s ease-in-out;
 }
 
+.getfundbtn a {
+  color: white !important;
+  text-decoration: none !important;
+}
 
 .outer-overlay {
   position: absolute;
