@@ -26,7 +26,7 @@ function App() {
     <Container fluid style={{"padding":"0px"}}>
       <Row>
         <Col sm={12}>
-          <Router>
+          <Router basename="/energyiz">
             <div>
               <Navigation />
               <Routes>
