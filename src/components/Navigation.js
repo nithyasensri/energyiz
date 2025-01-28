@@ -4,9 +4,9 @@ import { Row, Col } from 'react-bootstrap';
 import '../App.css';
 import logo from '../assets/IZ-Logo.svg'
 import { Link } from 'react-router-dom'
-import menu1 from './assets/7207040-200.png'
-import menu2 from './assets/7498943-512.png'
-import menu3 from './assets/7503095-512.png'
+import menu1 from '../assets/7207040-200.png'
+import menu2 from '../assets/7498943-512.png'
+import menu3 from '../assets/7503095-512.png'
 
 const Navigation = () => {
     return (
