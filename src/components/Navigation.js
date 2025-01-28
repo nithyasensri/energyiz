@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col } from 'react-bootstrap';
 import '../App.css';
 import logo from '../assets/IZ-Logo.svg'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
     return (
@@ -20,47 +21,34 @@ const Navigation = () => {
                                 <li>
                                     Services
                                     <ul className="dropdown-menu">
-                                        <li><a href='/renewable'>Renewable Energy</a></li>
+                                        <Link to="/renewable" className=''>Renewable Energy</Link>
                                         <ul className='submenu'>
-                                            <li><a href="/solarpv">SolarPv & Solar Batteries</a></li>
-                                            <li><a href="/airsource">Air Source Heat Pumps</a></li>
+                                            <Link to="/solarpv" className=''>SolarPv & Solar Batteries</Link>
+                                            <Link to="/airsource" className=''>Air Source Heat Pumps</Link>
                                         </ul>
-                                        <li><a href='/insulation'>Insulation</a></li>
+                                        <Link to="/insulation" className=''>Insulation</Link>
                                         <ul className='submenu'>
-                                            <li><a href="/underfloor">Underfloor Insulation</a></li>
-                                            <li><a href="/wallinsulation">Wall Insulation</a></li>
-                                            <li><a href="/roofinsulation">Roof Insulation</a></li>
+                                            <Link to="/underfloor" className=''>Underfloor Insulation</Link>
+                                            <Link to="/wallinsulation" className=''>Wall Insulation</Link>
+                                            <Link to="/roofinsulation" className=''>Roof Insulation</Link>
                                         </ul>
-                                        <li><a href='/heating'>Heating And Other Energy Solutions
-                                        </a></li>
+                                        <Link to="/heating" className=''>Heating And Other Energy Solutions</Link>
                                         <ul className='submenu'>
-                                            <li><a href="/boiler">Boiler & Heater Controls</a></li>
-                                            <li><a href="/ventilation">Ventilation</a></li>
+                                            <Link to="/boiler" className=''>Boiler & Heater Controls</Link>
+                                            <Link to="/ventilation" className=''>Ventilation</Link>
                                         </ul>
                                     </ul>
-                                </li>
-                                <li>
-                                    <a href="/aboutus">Aboutus</a>
-                                </li>
-                                <li>
-                                    <a href="/funding">Funding</a>
-                                </li>
-                                <li>
-                                    <a href="/job">Jobs</a>
-                                </li>
-                                <li>
-                                    <a href="/contact">Contactus</a>
-                                </li>
-                                <li>
-                                    Click to call: <a href="tel:+1234567890"><b>+123 456 7890</b></a>
-                                </li>
+                                    <Link to="/aboutus" className=''>Aboutus</Link>
+                                    <Link to="funding" className=''>Funding</Link>
+                                    <Link to="/job" className=''>Jobs</Link>
+                                    <Link to="/contact" className=''>Contactus</Link>
+                                    <Link to="/ventilation" className=''>Ventilation</Link>
+                                    <Link to="tel:+1234567890" className=''>Click to call:<b>+123 456 7890</b></Link>
                             </ul>
                         </nav>
                     </Col>
                     <Col md={2} className='small-list'>
-                        <li className='funding'>
-                            <a href="/funform"> Get Funding</a>
-                        </li>
+                    <Link to="/funform" className='funding'>Get Funding</Link>
                     </Col>
                 </Row>
             </Col >
