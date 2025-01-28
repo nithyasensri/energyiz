@@ -11,43 +11,43 @@ const Navigation = () => {
             <Col sm={12} md={11} className="text-center">
                 <Row>
                     <Col sm={12} md={3} className='logo'>
-                        <a href="/">
+                        <Link to="/" className=''>
                             <img src={logo} alt="logo" />
-                        </a>
+                        </Link>
                     </Col>
                     <Col sm={12} md={7}>
                         <nav className='menu'>
                             <ul className='list-col'>
-                                <Link className=''>Renewable Energy</Link>
+                                <Link className='menu-a men-a'>Services</Link>
                                 <ul className="dropdown-menu">
-                                    <Link to="/renewable" className=''>Renewable Energy</Link>
+                                    <Link to="/renewable" className='menu-b'>Renewable Energy</Link>
                                     <ul className='submenu'>
-                                        <Link to="/solarpv" className=''>SolarPv & Solar Batteries</Link>
-                                        <Link to="/airsource" className=''>Air Source Heat Pumps</Link>
+                                        <Link to="/solarpv" className='menu-c'>SolarPv & Solar Batteries</Link>
+                                        <Link to="/airsource" className='menu-c'>Air Source Heat Pumps</Link>
                                     </ul>
-                                    <Link to="/insulation" className=''>Insulation</Link>
+                                    <Link to="/insulation" className='menu-b'>Insulation</Link>
                                     <ul className='submenu'>
-                                        <Link to="/underfloor" className=''>Underfloor Insulation</Link>
-                                        <Link to="/wallinsulation" className=''>Wall Insulation</Link>
-                                        <Link to="/roofinsulation" className=''>Roof Insulation</Link>
+                                        <Link to="/underfloor" className='menu-c'>Underfloor Insulation</Link>
+                                        <Link to="/wallinsulation" className='menu-c'>Wall Insulation</Link>
+                                        <Link to="/roofinsulation" className='menu-c'>Roof Insulation</Link>
                                     </ul>
-                                    <Link to="/heating" className=''>Heating And Other Energy Solutions</Link>
+                                    <Link to="/heating" className='menu-a'>Heating And Other Energy Solutions</Link>
                                     <ul className='submenu'>
-                                        <Link to="/boiler" className=''>Boiler & Heater Controls</Link>
-                                        <Link to="/ventilation" className=''>Ventilation</Link>
+                                        <Link to="/boiler" className='menu-b'>Boiler & Heater Controls</Link>
+                                        <Link to="/ventilation" className='menu-b'>Ventilation</Link>
                                     </ul>
                                 </ul>
-                                <Link to="/aboutus" className=''>Aboutus</Link>
-                                <Link to="funding" className=''>Funding</Link>
-                                <Link to="/job" className=''>Jobs</Link>
-                                <Link to="/contact" className=''>Contactus</Link>
-                                <Link to="/ventilation" className=''>Ventilation</Link>
-                                <Link to="tel:+1234567890" className=''>Click to call:<b>+123 456 7890</b></Link>
+                                <Link to="/aboutus" className='menu-a'>Aboutus</Link>
+                                <Link to="funding" className='menu-a'>Funding</Link>
+                                <Link to="/job" className='menu-a'>Jobs</Link>
+                                <Link to="/contact" className='menu-a'>Contactus</Link>
+                                <Link to="/ventilation" className='menu-a'>Ventilation</Link>
+                                <Link to="tel:+1234567890" className='menu-a'>Click to call:<b>+123 456 7890</b></Link>
                             </ul>
                         </nav>
                     </Col>
                     <Col md={2} className='small-list'>
-                        <Link to="/funform" className='funding'>Get Funding</Link>
+                        <Link to="/funform" className='funding men-d'>Get Funding</Link>
                     </Col>
                 </Row>
             </Col >

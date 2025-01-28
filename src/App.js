@@ -32,8 +32,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/renewable" element={<RenewablePage />} />
-                <Route path="/solarpv" element={<Solarpv/>} />
-                <Route path="/airsource" element={<Airsource/>} />
+                <Route path="/solarpv" element={<Solarpv />} />
+                <Route path="/airsource" element={<Airsource />} />
                 
                 <Route path="/insulation" element={<Insulation/>}/>
                 <Route path="/underfloor" element={<Underinsulation/>}/>

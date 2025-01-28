@@ -39,7 +39,7 @@
   padding-left: 10px !important;
 }
 
-.list-col li {
+.list-col menu-a {
   margin-right: 5px;
   text-decoration: none !important;
   position: relative;
@@ -48,7 +48,7 @@
   font-family: font6;
 }
 
-.list-col li .dropdown-menu {
+.list-col menu-a .dropdown-menu {
   display: block;
   position: absolute;
   top: 100%;
@@ -66,14 +66,14 @@
 
 }
 
-.dropdown-menu li a, .submenu li a {
+.dropdown-menu menu-b, .submenu menu-c {
   color: #000 !important;
 }
 
 
 
 
-.list-col li:hover .dropdown-menu {
+.list-col men-a:hover .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
@@ -85,7 +85,7 @@
   padding-top: 18px;
 }
 
-.small-list li a {
+.small-list .men-d {
   text-decoration: none;
   color: #000;
   font-size: 18px;
@@ -94,7 +94,7 @@
 }
 
 
-.list-col li a, .small-list li a {
+.list-col .menu-a, .small-list .men-d {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
@@ -102,21 +102,19 @@
   text-decoration: none !important;
 }
 
-.small-list li a {
+/* .small-list .men-d {
   text-decoration: none;
   color: #000;
   font-size: 18px;
   padding: 4px;
   text-decoration: none !important;
-}
+} */
 
-.submenu li {
+.submenu menu-b {
   list-style: none;
-}
-
-.submenu li a {
   font-size: 15px;
 }
+
 
 .logo {
   height: 80px;
@@ -138,7 +136,7 @@
   padding-top: 10px;
 }
 
-.funding a {
+.funding .men-d {
   background-color: rgba(250, 152, 15, 1);
   color: #fff !important;
   padding: 12px 22px 12px 26px !important;
@@ -152,7 +150,7 @@
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.funding a:hover {
+.funding:hover {
   transform: translateY(4px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
