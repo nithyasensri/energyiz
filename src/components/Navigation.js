@@ -17,33 +17,33 @@ const Navigation = () => {
                     </Col>
                     <Col sm={12} md={7}>
                         <nav className='menu'>
-                            <ul className='list-col'>
+                            <div className='list-col'>
                                 <Link className='menu-a men-a'>Services</Link>
-                                <ul className="dropdown-menu">
+                                <div className="dropdown-menu">
                                     <Link to="/renewable" className='menu-b'>Renewable Energy</Link>
-                                    <ul className='submenu'>
+                                    <div className='submenu'>
                                         <Link to="/solarpv" className='menu-c'>SolarPv & Solar Batteries</Link>
                                         <Link to="/airsource" className='menu-c'>Air Source Heat Pumps</Link>
-                                    </ul>
+                                    </div>
                                     <Link to="/insulation" className='menu-b'>Insulation</Link>
-                                    <ul className='submenu'>
+                                    <div className='submenu'>
                                         <Link to="/underfloor" className='menu-c'>Underfloor Insulation</Link>
                                         <Link to="/wallinsulation" className='menu-c'>Wall Insulation</Link>
                                         <Link to="/roofinsulation" className='menu-c'>Roof Insulation</Link>
-                                    </ul>
-                                    <Link to="/heating" className='menu-a'>Heating And Other Energy Solutions</Link>
-                                    <ul className='submenu'>
-                                        <Link to="/boiler" className='menu-b'>Boiler & Heater Controls</Link>
-                                        <Link to="/ventilation" className='menu-b'>Ventilation</Link>
-                                    </ul>
-                                </ul>
+                                    </div>
+                                    <Link to="/heating" className='menu-b'>Heating And Other Energy Solutions</Link>
+                                    <div className='submenu'>
+                                        <Link to="/boiler" className='menu-c'>Boiler & Heater Controls</Link>
+                                        <Link to="/ventilation" className='menu-c'>Ventilation</Link>
+                                    </div>
+                                </div>
                                 <Link to="/aboutus" className='menu-a'>Aboutus</Link>
                                 <Link to="funding" className='menu-a'>Funding</Link>
                                 <Link to="/job" className='menu-a'>Jobs</Link>
                                 <Link to="/contact" className='menu-a'>Contactus</Link>
                                 <Link to="/ventilation" className='menu-a'>Ventilation</Link>
                                 <Link to="tel:+1234567890" className='menu-a'>Click to call:<b>+123 456 7890</b></Link>
-                            </ul>
+                            </div>
                         </nav>
                     </Col>
                     <Col md={2} className='small-list'>
