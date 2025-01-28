@@ -18,25 +18,26 @@ const Navigation = () => {
                     <Col sm={12} md={7}>
                         <nav className='menu'>
                             <div className='list-col'>
-                                <Link className='menu-a men-a'>Services</Link>
-                                <div className="dropdown-menu">
-                                    <Link to="/renewable" className='menu-b'>Renewable Energy</Link>
-                                    <div className='submenu'>
-                                        <Link to="/solarpv" className='menu-c'>SolarPv & Solar Batteries</Link>
-                                        <Link to="/airsource" className='menu-c'>Air Source Heat Pumps</Link>
+                                <Link className='menu-a men-a'>Services
+                                    <div className="dropdown-menu">
+                                        <Link to="/renewable" className='menu-b'>Renewable Energy</Link>
+                                        <div className='submenu'>
+                                            <Link to="/solarpv" className='menu-c'>SolarPv & Solar Batteries</Link>
+                                            <Link to="/airsource" className='menu-c'>Air Source Heat Pumps</Link>
+                                        </div>
+                                        <Link to="/insulation" className='menu-b'>Insulation</Link>
+                                        <div className='submenu'>
+                                            <Link to="/underfloor" className='menu-c'>Underfloor Insulation</Link>
+                                            <Link to="/wallinsulation" className='menu-c'>Wall Insulation</Link>
+                                            <Link to="/roofinsulation" className='menu-c'>Roof Insulation</Link>
+                                        </div>
+                                        <Link to="/heating" className='menu-b'>Heating And Other Energy Solutions</Link>
+                                        <div className='submenu'>
+                                            <Link to="/boiler" className='menu-c'>Boiler & Heater Controls</Link>
+                                            <Link to="/ventilation" className='menu-c'>Ventilation</Link>
+                                        </div>
                                     </div>
-                                    <Link to="/insulation" className='menu-b'>Insulation</Link>
-                                    <div className='submenu'>
-                                        <Link to="/underfloor" className='menu-c'>Underfloor Insulation</Link>
-                                        <Link to="/wallinsulation" className='menu-c'>Wall Insulation</Link>
-                                        <Link to="/roofinsulation" className='menu-c'>Roof Insulation</Link>
-                                    </div>
-                                    <Link to="/heating" className='menu-b'>Heating And Other Energy Solutions</Link>
-                                    <div className='submenu'>
-                                        <Link to="/boiler" className='menu-c'>Boiler & Heater Controls</Link>
-                                        <Link to="/ventilation" className='menu-c'>Ventilation</Link>
-                                    </div>
-                                </div>
+                                </Link>
                                 <Link to="/aboutus" className='menu-a'>Aboutus</Link>
                                 <Link to="funding" className='menu-a'>Funding</Link>
                                 <Link to="/job" className='menu-a'>Jobs</Link>
